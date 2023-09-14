@@ -63,12 +63,10 @@ const editTask = async (item) => {
 
 const updateTask = (isUpdated) => {
     console.log(isUpdated);
-    isEdit.value=false
-    editingTask.value=null
+    isEdit.value = false
+    editingTask.value = null
     loadTasks()
 }
 </script>           
  
 
-
-</script>
