@@ -1,4 +1,18 @@
 {
   "tasks": [],
-  "users": []
+  
+  "users": [
+    {
+      "id": 1,
+      "fulName": "Johnny Paz",
+      "email": "johnnypazabadia1@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "1234"
+    }
+  ]
 }
