@@ -53,8 +53,8 @@ const task = ref({ conditions: true, period: '1' })
 const dialog = ref(false)
 
 const saveTask = async () => {
-  const result = await axios.post("http://localhost:3001/tasks", task.value)
-  console.log(result);
+    const result = await axios.post("http://localhost:3001/tasks", task.value)
+    console.log(result);
 }
 
 
